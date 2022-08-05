@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#f0f0f0"
+    ohos:orientation="vertical">
+
+
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:margin="0vp"
+        ohos:padding="5vp"
+        ohos:background_element="#FFDBAFAA"
+        >
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="生活碎片"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:text_size="50"
+            ohos:id="$+id:title"
+            ohos:text_color="white"/>
+
+        <Button
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="取消"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:background_element="#FFDBAFAA"
+            ohos:id="$+id:btn_exit"
+            ohos:align_parent_left="true"
+            ohos:text_size="50"
+            ohos:text_color="white"/>
+
+        <Button
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="保存"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:align_parent_right="true"
+            ohos:background_element="#FFDBAFAA"
+            ohos:id="$+id:btn_save"
+            ohos:text_size="50"
+            ohos:text_color="white"/>
+
+
+    </DependentLayout>
+
+    <TextField
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text_alignment="left"
+        ohos:background_element="white"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text_size="50"
+        ohos:hint="请输入标题༼つ◕_◕ ༽つ"
+        ohos:id="$+id:tf_title"
+        ohos:text_color="black"/>
+
+    <DirectionalLayout
+        ohos:height="70vp"
+        ohos:width="match_parent"
+        ohos:margin="10vp"
+        ohos:orientation="horizontal"
+        ohos:background_element="white">
+        <Image
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:height="70vp"
+            ohos:image_src="$media:ori_laugh"
+            ohos:id="$+id:laugh"
+            />
+        <Image
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:height="70vp"
+            ohos:image_src="$media:ori_smile"
+            ohos:id="$+id:smile"
+
+            />
+        <Image
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:height="70vp"
+            ohos:image_src="$media:ori_indifferent"
+            ohos:id="$+id:indifferent"
+            />
+        <Image
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:height="70vp"
+            ohos:image_src="$media:ori_upset"
+            ohos:id="$+id:upset"
+            />
+    </DirectionalLayout>
+
+    <TextField
+        ohos:width="match_parent"
+        ohos:height="300vp"
+        ohos:text_alignment="left"
+        ohos:background_element="white"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text_size="50"
+        ohos:hint="请输入内容(●'◡'●)"
+        ohos:multiple_lines="true"
+        ohos:max_text_lines="10"
+        ohos:id="$+id:tf_content"
+        ohos:text_color="black"/>
+
+    <DirectionalLayout
+        ohos:height="90vp"
+        ohos:width="match_parent"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:orientation="horizontal"
+        ohos:background_element="white">
+        <Image
+            ohos:width="70vp"
+            ohos:height="match_parent"
+            ohos:image_src="$media:media"
+            ohos:id="$+id:tf_photo"
+            />
+        <Image
+            ohos:width="70vp"
+            ohos:height="match_parent"
+            ohos:image_src="$media:video"
+            ohos:id="$+id:tf_record"
+            />
+        <Image
+            ohos:width="70vp"
+            ohos:height="match_parent"
+            ohos:image_src="$media:storage"
+            ohos:id="$+id:tf_storage"
+            />
+        <Image
+            ohos:width="70vp"
+            ohos:height="match_parent"
+            ohos:image_src="$media:microphone"
+            ohos:id="$+id:tf_microphone"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="white">
+        <Image
+            ohos:height="30vp"
+            ohos:width="30vp"
+            ohos:scale_mode="stretch"
+            ohos:image_src="$media:location"
+            ohos:id="$+id:location">
+        </Image>
+        <Text
+            ohos:height="30vp"
+            ohos:width="300vp"
+            ohos:text_size="50"
+            ohos:id="$+id:location_display"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="2">
+        </Text>
+    </DirectionalLayout>
+
+
+
+
+
+
+</DirectionalLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:id="$+id:item_layout"
+                   ohos:width="match_parent"
+                   ohos:margin="5vp"
+                   ohos:height="match_content"
+                   ohos:padding="10vp"
+                   ohos:background_element="white"
+                   ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:t_feeling"
+        ohos:width="70vp"
+        ohos:height="70vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:image_src="$media:gift_open"
+        ohos:scale_mode="center"
+        ohos:padding="8vp"/>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="125vp"
+        ohos:left_margin="20vp"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:t_title"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_alignment="bottom"
+            ohos:text_size="16fp"
+            ohos:text_color="black"
+            ohos:text_font="medium"
+            ohos:top_margin="10vp"
+            ohos:text="标题"
+            ohos:max_text_lines="1"
+            ohos:multiple_lines="false"
+            />
+        <Text
+            ohos:id="$+id:t_content"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_size="16fp"
+            ohos:top_margin="10vp"
+            ohos:text_color="gray"
+            ohos:text_font="medium"
+            ohos:text_alignment="bottom"
+            ohos:text="content"
+            ohos:max_text_lines="1"
+            ohos:multiple_lines="false"/>
+
+        <Text
+            ohos:id="$+id:list_text_time"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_alignment="right"
+            ohos:text_size="10fp"
+            ohos:text_color="gray"
+            ohos:text="2020年03月06日 20:50:11"
+            ohos:max_text_lines="1"
+            ohos:multiple_lines="false"/>
+
+
+        <Text
+            ohos:id="$+id:t_location"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_size="10fp"
+            ohos:top_margin="10vp"
+            ohos:text_color="gray"
+            ohos:text_font="medium"
+            ohos:text_alignment="right"
+            ohos:text="location"
+            ohos:max_text_lines="1"
+            ohos:multiple_lines="false"/>
+
+        <Text
+            ohos:id="$+id:source"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_size="10fp"
+            ohos:top_margin="10vp"
+            ohos:text_color="gray"
+            ohos:text_font="medium"
+            ohos:text_alignment="left"
+            ohos:text="有附件哦(￣︶￣)↗"
+            ohos:max_text_lines="1"
+            ohos:multiple_lines="false"/>
+
+    </DirectionalLayout>
+</DirectionalLayout>

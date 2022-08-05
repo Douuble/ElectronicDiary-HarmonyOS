@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:margin="0vp"
+                   ohos:padding="0vp"
+                   ohos:background_element="#efefef"
+                   ohos:orientation="vertical">
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:margin="0vp"
+        ohos:padding="5vp"
+        ohos:background_element="#FFDBAFAA"
+        >
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="生活碎片"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:text_size="50"
+            ohos:id="$+id:title"
+            ohos:text_color="white"/>
+
+        <Button
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="返回"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:background_element="#FFDBAFAA"
+            ohos:id="$+id:back"
+            ohos:align_parent_left="true"
+            ohos:text_size="50"
+            ohos:text_color="white"/>
+
+        <Button
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_top="true"
+            ohos:text="修改"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:align_parent_right="true"
+            ohos:background_element="#FFDBAFAA"
+            ohos:id="$+id:btn_modify"
+            ohos:text_size="50"
+            ohos:text_color="white"/>
+
+    </DependentLayout>
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="标题"
+        ohos:text_alignment="left"
+        ohos:background_element="white"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text_size="40"
+        ohos:id="$+id:t_title"
+        ohos:text_color="black"/>
+
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="日期"
+        ohos:text_alignment="right"
+        ohos:right_padding="30vp"
+        ohos:top_margin="20vp"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="13fp"
+        ohos:id="$+id:date"
+        ohos:text_color="#FF605F5F"/>
+
+    <Image
+        ohos:height="270vp"
+        ohos:width="match_parent"
+        ohos:scale_mode="stretch"
+        ohos:image_src="$media:gift_open"
+        ohos:padding="20vp"
+        ohos:margin="10vp"
+        ohos:id="$+id:photo"
+        ohos:background_element="white">
+    </Image>
+
+    <DirectionalLayout
+        ohos:id="$+id:playposition"
+        ohos:height="270vp"
+        ohos:alignment="center"
+        ohos:background_element="#FF4A4646"
+        ohos:padding="20vp"
+        ohos:margin="10vp"
+        ohos:width="match_parent"/>
+
+
+    <Button
+        ohos:width="50vp"
+        ohos:height="50vp"
+        ohos:text="播放"
+        ohos:background_element="$graphic:circle_button_element"
+        ohos:id="$+id:bnt_play"
+        ohos:text_size="60"
+        ohos:text_color="white"
+        ohos:left_margin="300vp"/>
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="内容"
+        ohos:text_alignment="left"
+        ohos:background_element="white"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text_size="40"
+        ohos:id="$+id:content"
+        ohos:text_color="black"/>
+
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="地址"
+        ohos:text_alignment="right"
+        ohos:right_padding="30vp"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="13fp"
+        ohos:id="$+id:location"
+        ohos:text_color="#FF605F5F"/>
+
+    <Button
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="删除碎片"
+        ohos:padding="5vp"
+        ohos:margin="30vp"
+        ohos:text_alignment="center"
+        ohos:background_element="$graphic:capsule_button_element"
+        ohos:id="$+id:bnt_delete"
+        ohos:text_size="60"
+        ohos:text_color="white"/>
+
+
+</DirectionalLayout>

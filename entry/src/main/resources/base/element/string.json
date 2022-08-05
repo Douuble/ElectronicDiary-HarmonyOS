@@ -1,0 +1,164 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "生活碎片"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "userdataability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "loginregisterability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "loginregisterability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LoginRegisterAbility",
+      "value": "entry_LoginRegisterAbility"
+    },
+    {
+      "name": "registerabilityslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "registerabilityslice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RegisterAbilitySlice",
+      "value": "entry_RegisterAbilitySlice"
+    },
+    {
+      "name": "register_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "register_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Register",
+      "value": "entry_Register"
+    },
+    {
+      "name": "homeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "homeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_HomeAbility",
+      "value": "entry_HomeAbility"
+    },
+    {
+      "name": "addinformationability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "addinformationability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_AddInformationAbility",
+      "value": "entry_AddInformationAbility"
+    },
+    {
+      "name": "photoability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "photoability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PhotoAbility",
+      "value": "entry_PhotoAbility"
+    },
+    {
+      "name": "recordability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "recordability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RecordAbility",
+      "value": "entry_RecordAbility"
+    },
+    {
+      "name": "templeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "templeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TempleAbility",
+      "value": "entry_TempleAbility"
+    },
+    {
+      "name": "locationability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "locationability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LocationAbility",
+      "value": "生活碎片"
+    },
+    {
+      "name": "informationability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "informationability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_InformationAbility",
+      "value": "entry_InformationAbility"
+    },
+    {
+      "name": "playerability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "playerability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PlayerAbility",
+      "value": "entry_PlayerAbility"
+    },
+    {
+      "name": "modeifyability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "modeifyability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ModeifyAbility",
+      "value": "entry_ModeifyAbility"
+    }
+  ]
+}

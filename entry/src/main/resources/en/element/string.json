@@ -1,0 +1,100 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Pieces of Life"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PhotoAbility",
+      "value": "entry_PhotoAbility"
+    },
+    {
+      "name": "photoability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "photoability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RecordAbility",
+      "value": "entry_RecordAbility"
+    },
+    {
+      "name": "recordability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "recordability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TempleAbility",
+      "value": "entry_TempleAbility"
+    },
+    {
+      "name": "templeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "templeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LocationAbility",
+      "value": "entry_LocationAbility"
+    },
+    {
+      "name": "locationability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "locationability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_InformationAbility",
+      "value": "entry_InformationAbility"
+    },
+    {
+      "name": "informationability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "informationability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PlayerAbility",
+      "value": "entry_PlayerAbility"
+    },
+    {
+      "name": "playerability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "playerability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ModeifyAbility",
+      "value": "entry_ModeifyAbility"
+    },
+    {
+      "name": "modeifyability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "modeifyability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

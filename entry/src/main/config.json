@@ -1,0 +1,193 @@
+{
+  "app": {
+    "bundleName": "com.doubley.life",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.doubley.life",
+    "name": ".MyApplication",
+    "mainAbility": "com.doubley.life.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoActionBar",
+          "extra": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.doubley.life.MainAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "permissions": [
+          "com.doubley.life.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.doubley.life.UserDataAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:userdataability_description",
+        "type": "data",
+        "uri": "dataability://com.doubley.life.UserDataAbility"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.LoginAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:loginregisterability_description",
+        "label": "$string:entry_LoginRegisterAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.RegisterAbilitySlice",
+        "icon": "$media:gift_open",
+        "description": "$string:registerabilityslice_description",
+        "label": "$string:entry_RegisterAbilitySlice",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.RegisterAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:register_description",
+        "label": "$string:entry_Register",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.HomeAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:homeability_description",
+        "label": "$string:entry_HomeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.AddInformationAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:addinformationability_description",
+        "label": "$string:entry_AddInformationAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.PhotoAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:photoability_description",
+        "label": "$string:entry_PhotoAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.RecordAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:recordability_description",
+        "label": "$string:entry_RecordAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.TempleAbility",
+        "icon": "$media:gift_open",
+        "description": "$string:templeability_description",
+        "label": "$string:entry_TempleAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.LocationAbility",
+        "icon": "$media:icon",
+        "description": "$string:locationability_description",
+        "label": "$string:entry_LocationAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.InformationAbility",
+        "icon": "$media:icon",
+        "description": "$string:informationability_description",
+        "label": "$string:entry_InformationAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.PlayerAbility",
+        "icon": "$media:icon",
+        "description": "$string:playerability_description",
+        "label": "$string:entry_PlayerAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.doubley.life.ModifyAbility",
+        "icon": "$media:icon",
+        "description": "$string:modeifyability_description",
+        "label": "$string:entry_ModeifyAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.CAMERA"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.MICROPHONE"
+      },
+      {
+        "name": "ohos.permission.LOCATION"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}
